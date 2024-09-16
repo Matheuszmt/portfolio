@@ -22,8 +22,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
-    width: 140vw;
-    height: 100vh;
+    width: 240vw;
+    height: 250vh;
     display: inline-block;
     position: fixed;
     top: 0;
@@ -38,7 +38,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     position: fixed;
-    width: 100vw;
+    width: 120vw;
     height: 140vh;
     display: inline-block;
     position: fixed;
@@ -46,4 +46,23 @@ body {
     right: 0;
     z-index: -1;
     transform: rotate(180deg);
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+
+
+    .main::before,
+    .main::after{
+        max-width: 200vw;
+
+    }
+
+
 }
