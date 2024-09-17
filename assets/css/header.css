@@ -92,7 +92,7 @@
         grid-area: profileImage;
         width: 300px;
         height: 300px;
-        border-radius: 2rem;
+        border-radius: 2rem 0.1px;
         margin: 0 auto;
     }
 

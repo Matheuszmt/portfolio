@@ -10,9 +10,21 @@
     border-radius: 1rem;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 body {
     background-color: #000;
-    color: #fff
+    color: #fff;
+    margin: 1rem;
     
 }
 
