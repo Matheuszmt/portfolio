@@ -6,6 +6,9 @@
     border: 1px solid #fff;
     border-radius: 1rem;
     transition: .5s;
+    animation: fadeIn;
+    animation-duration: 2s;
+
 
 }
 
@@ -26,6 +29,8 @@
     background-color: transparent;
     color: #fff;
     border: none;
+    animation: backInLeft;
+    animation-duration: 2s;
 }
 
 .acordeon .trigger h2 {
